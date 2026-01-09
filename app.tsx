@@ -1,9 +1,9 @@
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import { Home } from './pages/Home';
-import { Recommendations } from './pages/Recommendations';
-import { Details } from './pages/Details';
-import { ChatBot } from './components/ChatBot';
+import { Home } from './pages/Home.tsx';
+import { Recommendations } from './pages/Recommendations.tsx';
+import { Details } from './pages/Details.tsx';
+import { ChatBot } from './components/ChatBot.tsx';
 
 const App: React.FC = () => {
   return (
